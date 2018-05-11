@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>Xavier Schott</Authors>
+    <Owners>Versatible Limited, Co.</Owners>
+    <Description>A bridge between GraphAlgorithms and D3 JSON</Description>
+    <PackageId>GraphAlgorithms.D3</PackageId>
+    <PackageReleaseNotes>Experimental</PackageReleaseNotes>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageLicenseUrl>https://github.com/Versatible/GraphAlgorithms.D3/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Versatible/GraphAlgorithms.D3</PackageProjectUrl>
+    <Summary>Targeted and lightweight graph algorithms bridge for D3</Summary>
+    <Title>Graph Algorithms D3</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+    <PackageReference Include="GraphAlgorithms" Version="0.0.1" />
+  </ItemGroup>
+</Project>
