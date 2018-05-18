@@ -30,7 +30,7 @@ namespace GraphAlgorithms.D3.test
             var d3 = new D3ForceDirectedGraph<Char>(TestCharGraph(),
                                        (character) => { return character.ToString(); }
                                       );
-            string expected = "{\"nodes\":[{\"id\":\"A\",\"groupColor\":1},{\"id\":\"B\",\"groupColor\":1}],\"links\":[{\"source\":\"A\",\"target\":\"B\",\"value\":10}]}";
+            string expected = "{\"nodes\":[{\"id\":\"A\",\"groupColor\":1},{\"id\":\"B\",\"groupColor\":1}],\"links\":[{\"source\":\"A\",\"target\":\"B\",\"value\":10.0}]}";
             string actual = JsonConvert.SerializeObject(d3);
             Assert.AreEqual(expected, actual);
         }

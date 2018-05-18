@@ -17,15 +17,15 @@ namespace GraphAlgorithms.D3
     {
         public readonly string source;
         public readonly string target;
-        public readonly int value;
-        public D3Link(string source, string target, int value) {
+        public readonly double value;
+        public D3Link(string source, string target, double value) {
             this.source = source;
             this.target = target;
             this.value = value;
         }
     }
 
-    public struct D3ForceDirectedGraph<CONTENT>
+    public struct D3ForceDirectedGraph<CONTENT> where CONTENT : IEquatable<CONTENT>
     {
         public readonly D3Node[] nodes;
         public readonly D3Link[] links;
