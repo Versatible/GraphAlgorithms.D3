@@ -13,7 +13,7 @@
     <PackageProjectUrl>https://github.com/Versatible/GraphAlgorithms.D3</PackageProjectUrl>
     <Summary>Targeted and lightweight graph algorithms bridge for D3</Summary>
     <Title>Graph Algorithms D3</Title>
-    <PackageIconUrl>http://www.gravatar.com/avatar/fa2789939bc26cd4e0ce43e7cf27a81f</PackageIconUrl>
+    <PackageIconUrl>https://www.gravatar.com/avatar/fa2789939bc26cd4e0ce43e7cf27a81f</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
